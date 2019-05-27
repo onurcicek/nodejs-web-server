@@ -1,5 +1,6 @@
 var express=require("express");
 var app=express();
+var middleware=require("./middleware");  // ./ bulundğum klasör demek ./middleware bulunduğum klasörün altındaki middlaware
 var PORT=3000;
 
 // app.get("/",function(req,res){
@@ -12,16 +13,16 @@ var PORT=3000;
 
 // })
 
-var middleware ={
-    requireAuthentication: function(req,res,next){
-        console.log("özel route girildi");
-        next();
-    },
-    logger: function (req, res, next){
-        console.log(req.method);
-        next();
-    }
-}
+// var middleware ={  // bunu önce burda yazdık sonra ayrı sayfadan çağırdık
+//     requireAuthentication: function(req,res,next){
+//         console.log("özel route girildi");
+//         next();
+//     },
+//     logger: function (req, res, next){
+//         console.log(req.method);
+//         next();
+//     }
+// }
 
 //app.use(middleware.requireAuthentication); // burada sayfanın tamamı için çalıştırıyoruz.
 
