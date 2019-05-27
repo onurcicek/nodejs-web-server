@@ -1,7 +1,7 @@
 var express=require("express");
 var app=express();
 var middleware=require("./middleware");  // ./ bulundğum klasör demek ./middleware bulunduğum klasörün altındaki middlaware
-var PORT=3000;
+var PORT = process.env.PORT || 3000; // heroku portunda çalış yoksa 3000 de çalışt
 
 // app.get("/",function(req,res){
 
