@@ -108,3 +108,18 @@ PS C:\Users\O&E\Desktop\node-js-giris\web-server> git commit -m "tazelendi"
  create mode 100644 public/index.html
  create mode 100644 server.js
 */
+
+
+//TÜM BU GİTHUB HESABIMIZA EŞLEŞTİRDİĞİMİZ DOSYALAR LOCALHOSTUMUZA AİT YANİ İNTERNET HESABUMUCDAKİNE DEĞİL
+
+// BU İŞLEMİ YAPABİLMEK İÇİN SSH KEY İHTİYACIMIZ VAR
+
+
+//ssh-keygen -t rsa -b 4096 -C "onurcck@gmail.com" bunu yazarak key oluşrutr
+
+/*
+
+PS C:\Users\O&E\Desktop\node-js-giris\web-server> more ~/.ssh/id_rsa.pub    // sonra bunu yazarak alttaki key anahtarın
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7xH32G/amQEq8Q+N5f3vVTFBSRB5dMgl5+M7pOQM8p4nhqjc6S1M6DCsx9CI4zD//sdbCVFcZziz5au28rUi+/zLcMuPvfv2XxoM0woEa+tvbmXpbiIbSL+XTtT34231GP4np8567zS0H6D9avNkpgWh15Os380vxin4g48VFLiYO6TFC0Bj8Epd+GUc48Nefl8cyWzXFfzFUaDOO4q3IQxoyd/V+sTdQ/woKHVQLTDvWhfyq16HqUw+s8idqeQro6uq/5D/iXQ3is1xmW9WtaaoQdxFPBKnYPzOyKcpI5ocU6YxVQbuHv4eIruEsYaQstM5LjsIK7tXYGBaWtvsIvr4k7kQ8IK4LHJD4+iTVWf08/ZJAtAk2UqGQprVK1Vzce2VujToXZ4vKbxmeTMdPdBZHrZwTEgj8sFmO+NgrwvUCkx+j2lCW8LYxBj8yYlD5bxkjnWPo4kV+tzXdrS816LJhCNoljO5ux7AiYRXVCU1Dba6yc2vUL9LJdSV2wAjHvs7rhc5WfCh0WVOvlaxmIqkfk3DSkXLK2cdl/GJcmPcpfF27Ehw7XT1Zb4FKoHKryK5unvr4KNHRuzrkhLyVRMASXaQsteH+p961sC2XQLMaigakk4VMBl/NRC5SeVPswhehFFLrD8cesLPSOA+tO3AIcvSCRL18dKP1xkZYFQ== onurcck@gmail.com
+
+*/
