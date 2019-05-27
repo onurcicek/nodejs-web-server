@@ -62,3 +62,49 @@ Untracked files:
 
 
 //şimdi gitti bi tane dosya açtık .gitignore diye içinede node_modules/ yazdık içine yazdıklarımızı görmezden gel demek
+
+/*
+
+PS C:\Users\O&E\Desktop\node-js-giris\web-server> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   git.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   server.js
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   git.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+
+*/
+
+
+//DİYELİMKİ BAZI DOSYALARDA DEĞİŞİKLİK YAPTIK VE BUNLARI GÖNDERECEĞİZ GIT ADD . DİYEREK HEPSİNİ HERSEFERİNDE GÖNDERMEYİZ BUNUN İÇİN
+//COMMIT KULLANURUZ
+
+// git commit -a -m "repository init edildi"  -a eklemeyi yapar -m mesaj verdirir mesajıda yanına yazdık
+
+/*
+PS C:\Users\O&E\Desktop\node-js-giris\web-server> git commit -m "tazelendi"
+[master (root-commit) 94f1c2d] tazelendi
+ 5 files changed, 410 insertions(+)
+ create mode 100644 git.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/index.html
+ create mode 100644 server.js
+*/
