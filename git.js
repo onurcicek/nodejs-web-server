@@ -123,3 +123,23 @@ PS C:\Users\O&E\Desktop\node-js-giris\web-server> more ~/.ssh/id_rsa.pub    // s
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7xH32G/amQEq8Q+N5f3vVTFBSRB5dMgl5+M7pOQM8p4nhqjc6S1M6DCsx9CI4zD//sdbCVFcZziz5au28rUi+/zLcMuPvfv2XxoM0woEa+tvbmXpbiIbSL+XTtT34231GP4np8567zS0H6D9avNkpgWh15Os380vxin4g48VFLiYO6TFC0Bj8Epd+GUc48Nefl8cyWzXFfzFUaDOO4q3IQxoyd/V+sTdQ/woKHVQLTDvWhfyq16HqUw+s8idqeQro6uq/5D/iXQ3is1xmW9WtaaoQdxFPBKnYPzOyKcpI5ocU6YxVQbuHv4eIruEsYaQstM5LjsIK7tXYGBaWtvsIvr4k7kQ8IK4LHJD4+iTVWf08/ZJAtAk2UqGQprVK1Vzce2VujToXZ4vKbxmeTMdPdBZHrZwTEgj8sFmO+NgrwvUCkx+j2lCW8LYxBj8yYlD5bxkjnWPo4kV+tzXdrS816LJhCNoljO5ux7AiYRXVCU1Dba6yc2vUL9LJdSV2wAjHvs7rhc5WfCh0WVOvlaxmIqkfk3DSkXLK2cdl/GJcmPcpfF27Ehw7XT1Zb4FKoHKryK5unvr4KNHRuzrkhLyVRMASXaQsteH+p961sC2XQLMaigakk4VMBl/NRC5SeVPswhehFFLrD8cesLPSOA+tO3AIcvSCRL18dKP1xkZYFQ== onurcck@gmail.com
 
 */
+
+
+
+///-----------------------------HEROKU İŞLEMLERİ-------------------------------------------------
+
+//herokuya internet sitesinden üye olduk. daha sonra git ile oluşturduğumuz SSH-KEY imizi ayarlar kısmında yapıştırıp eşleştirdik. sonra
+// herokuyu indirip kurdum nmp üzerinden de kurabilirsin ve daha sonra terminal üzerinden
+// heroku login yazarak girişi yaptık
+//şimdi heroku ile ilgili bir uyguılama oluşturalım
+
+/*
+
+PS C:\Users\O&E\Desktop\node-js-giris\web-server> heroku create
+Creating app... done, ⬢ sheltered-chamber-75118
+https://sheltered-chamber-75118.herokuapp.com/ | https://git.heroku.com/sheltered-chamber-75118.git
+
+*/
+
+//uygulamının oluşturuludğunu ve yukarıdaki link ile oluşturulduğunu söylüyor.
+
